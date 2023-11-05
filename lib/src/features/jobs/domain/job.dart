@@ -9,6 +9,8 @@ typedef JobID = String;
 
 @Freezed()
 class Job with _$Job {
+  const Job._();
+
   const factory Job({
     required JobID id,
     required String name,
